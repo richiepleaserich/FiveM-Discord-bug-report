@@ -1,5 +1,5 @@
 local QBCore = exports['qb-core']:GetCoreObject()
-local hook = 'https://discord.com/api/webhooks/1066262917344919592/-fATlVvVp15wZ1aWLbqbHKMdCSpNcOghgjBU7QdDV5UIWn4I2KVDRWuUjJNZ7zmn3aPs'
+local hook = '' # enter your discord webhook here
 
 RegisterCommand('bug', function(source, args, msg)
     local xPlayer       = QBCore.Functions.GetPlayer(source)
